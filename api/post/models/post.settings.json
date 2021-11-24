@@ -22,26 +22,14 @@
       "type": "richtext"
     },
     "User": {
+      "via": "posts",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "posts"
+      "model": "user"
     },
     "description": {
       "type": "text"
     },
     "blogImg": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
-    "avatarImg": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

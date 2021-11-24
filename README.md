@@ -1,3 +1,5 @@
 # Strapi application
 
-Backen end for for dev portfolio
+Backend for for dev portfolio
+
+[AlexMaldonado.DEV](https://www.alexmaldonado.dev)
