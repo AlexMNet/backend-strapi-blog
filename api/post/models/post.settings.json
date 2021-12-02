@@ -55,6 +55,12 @@
     },
     "subTitle": {
       "type": "string"
+    },
+    "liveLink": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
     }
   }
 }
